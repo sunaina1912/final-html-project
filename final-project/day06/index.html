@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <h1>Course Registration Form</h1>
+      <table cellspacing="7">
+        <tr>
+          <td><label for="fname">First Name</label></td>
+          <td>
+            <input
+              type="text"
+              placeholder="ex:sunaina"
+              required
+              id="fname"
+              name="fname"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="">Surname</label></td>
+          <td>
+            <input
+              type="text"
+              placeholder="shaik"
+              id="sname"
+              name="sname"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="mob">Mobile Number</label></td>
+          <td>
+            <input
+              type="tel"
+              placeholder="1234567890"
+              name="mob"
+              id="mob"
+              required
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="email">Email</label></td>
+          <td>
+            <input
+              type="email"
+              placeholder="sunaina@gmail.com"
+              name="email"
+              id="email"
+              required
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="pwd">Password</label></td>
+          <td><input type="password" name="pwd" id="pwd" required /></td>
+        </tr>
+
+        <tr>
+          <td><label for="">Confirm Password</label></td>
+          <td><input type="cpwd" name="cpwd" id="cpwd" required /></td>
+        </tr>
+        <tr>
+          <td><label for="dob">Date Of Birth</label></td>
+          <td><input type="date" name="dob" id="dob" required /></td>
+        </tr>
+        <tr>
+          <td><label for="age">Age</label></td>
+          <td><input type="number" name="age" id="age" required /></td>
+        </tr>
+        <tr>
+          <td><label>Gender:</label></td>
+          <td>
+            <input type="radio" name="gen" id="male" value="male" />
+            <label for="male">Male</label>
+
+            <input type="radio" name="gen" id="female" value="female" />
+            <label for="female">Female</label>
+
+            <input type="radio" name="gen" id="others" value="others" />
+            <label for="others">Others</label>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="con">Select Country</label></td>
+          <td>
+            <select name="con" id="con" required>
+              <option value="india">INDIA</option>
+              <option value="usa">USA</option>
+              <option value="uae">UAE</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="pic">Upload Picture</label></td>
+          <td><input type="file" required name="pic" value="pic" /></td>
+        </tr>
+
+        <tr>
+          <td>
+            <input type="reset" value="Reset" />
+          </td>
+        </tr>
+      </table>
+      <h3>Course Details</h3>
+      <table>
+        <tr>
+          <td><label for="course">Select Course</label></td>
+          <td>
+            <select name="course" id="course" required>
+              <option value="jfs">Java full Stack</option>
+              <option value="pfs">Python Full Stack</option>
+              <option value="ds">Data Science</option>
+              <option value="ml">machine Learning</option>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="delmode">Delivery Mode</label></td>
+          <td>
+            <input type="radio" name="delmode" value="Online" />
+            <label for="online">Online</label>
+            <input type="radio" name="delmode" value="Offline" />
+            <label for="offline">Offline</label>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="insname">Institute Name</label></td>
+          <td>
+            <input
+              type="text"
+              required
+              placeholder="TAPACADEMY"
+              name="insname"
+              id="insname"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="com">Comments</label></td>
+        </tr>
+      </table>
+      <table>
+        <tr>
+          <td>
+            <textarea rows="6" cols="35" name="com" id="com"></textarea>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
